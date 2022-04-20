@@ -1,16 +1,22 @@
 {
-  "name": "node-redis",
-  "version": "0.0.0",
-  "description": "Demonstrating a todo-list app!",
+  "name": "redis-TODO-List",
+  "version": "1.0.0",
+  "description": "Simple to do list",
+  "main": "app.js",
   "scripts": {
-    "start": "npx sandbox"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@architect/architect": "^9.5.3"
-  },
+  "keywords": [
+    "Redis",
+    "ExpressJS",
+    "EJS"
+  ],
+  "author": "Victor Contreras",
+  "license": "MIT",
   "dependencies": {
-    "@architect/functions": "^4.1.1",
-    "nanoid": "^3.3.1",
-    "redis": "^4.0.4"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "redis": "^2.8.0"
   }
 }

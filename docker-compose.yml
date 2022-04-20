@@ -1,22 +1,22 @@
 services:
-
   redis:
     image: redislabs/redismod
     container_name: db
-    expose:
+    ports:
       - 6379
   todoapp:
-    image: node:16
+    build: .
     working_dir: /var/www/app
     volumes:
       - ./:/var/www/app
     links:
       - redis
     ports:
-      - 3333:3333
+      - "3000:3000"
     environment:
       - REDIS_URL=redis://db
       - NODE_ENV=development
-      - PORT=3333
+      - PORT=3000
     command:
-      sh -c 'yarn install && yarn start'
+      sh -c 'yarn install && nodemon .'
+
