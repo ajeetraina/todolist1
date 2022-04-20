@@ -1,6 +1,32 @@
 # A Simple Todo List
 
 
+## Quick Test
+
+
+- Clone the repository
+- Install the dependencies
+
+```
+ npm install
+````
+
+- Start Redis
+
+```
+ docker run -d -p 6379:6379 redislabs/redismod
+```
+
+- Start the app
+
+```
+ nodemon .
+```
+
+
+
+
+
 ## Prerequisite
 
 - Docker Desktop 
