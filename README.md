@@ -1,7 +1,7 @@
 # A Simple Todo List
 
 
-## Quick Test
+## Using Undocker
 
 
 - Clone the repository
@@ -27,7 +27,7 @@
 
 
 
-## Prerequisite
+## Using Docker
 
 - Docker Desktop 
 
