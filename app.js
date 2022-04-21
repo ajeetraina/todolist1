@@ -5,10 +5,7 @@ const redis = require('redis');
 
 var app = express();
 
-const client = redis.createClient({
-      host: 'localhost',
-      port: 6379,
- });
+const client = redis.createClient({ url: process.env.REDIS_URL });
 
 
 client.on('connect', () => {
