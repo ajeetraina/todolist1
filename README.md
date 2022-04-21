@@ -1,35 +1,12 @@
-# A Simple Todo List
+# A Simple Todo List using Node.js, Express and Redis
 
-
-## Using Undocker
-
-
-- Clone the repository
-- Install the dependencies
-
-```
- npm install
-````
-
-- Start Redis
-
-```
- docker run -d -p 6379:6379 redislabs/redismod
-```
-
-- Start the app
-
-```
- nodemon .
-```
+<img width="1323" alt="Screen Shot 2022-04-21 at 4 05 40 PM" src="https://user-images.githubusercontent.com/313480/164441075-6e9fec0d-e762-41de-b91d-a234593f7bfb.png">
 
 
 
+## Pre-requisite
 
-
-## Using Docker
-
-- Docker Desktop 
+- Download and Install Docker Desktop 
 
 
 ## Bring up the application
